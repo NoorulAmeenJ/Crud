@@ -1,0 +1,50 @@
+{
+    "posts": [
+        {"id": 1,
+        "title": "json-server",
+        "author": "typicode"
+        }
+        ],
+    "comments": [
+            {
+                "id": 1,
+                "body": "some comment",
+                "postId": 1
+                }
+                ],
+                "students": 
+                [
+                    {
+                        "name": "name 1",
+                        "class": "class 1",
+                        "country": "country 1",
+                        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+                        "id": "1"
+                        },
+                        {
+                            "name": "name 2",
+                            "class": "class 2",
+                            "country": "country 2",
+                            "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+                            "id": "2"
+                            },
+                            {
+                                "name": "name 3",
+                                "class": "class 3",
+                                "country": "country 3",
+                                "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
+                                "id": "3"
+                                },
+                                {
+                                    "name": "name 4",
+                                    "class": "class 4",
+                                    "country": "country 4",
+                                    "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
+                                    "id": "4"
+                                    }
+                                ],
+                                "profile": 
+                                {
+                                    "name": "typicode"
+                                    }
+                                }
