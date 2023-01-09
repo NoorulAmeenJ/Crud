@@ -1,0 +1,17 @@
+.card{
+    display: grid;
+    justify-content: center;
+    border: 2px solid salmon;
+    width: 20rem;
+    height:25rem;
+    gap: 5rem;
+    /* gap : 5rem !important; */
+}
+.stud-avatar{
+    height: 15rem;
+    width: 20rem;
+
+}
+.info{
+    gap : 5rem;
+}

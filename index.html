@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+  <body>
+    <div class="container">
+      <form class="add-student-form">
+        <h3>Create New Student Details</h3>
+        <input  type="text" name="name" value=""  placeholder="Enter Name" class="input-text"/>
+        <br /><br />
 
-    <script src="crud.js" ></script>
-</body>
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Enter Image Url"
+          class="input-text"
+        />
+        <br /><br />
+
+        <input
+          type="text"
+          name="class"
+          value=""
+          placeholder="Enter class"
+          class="input-text"
+        />
+        <br /><br />
+
+        <input
+          type="text"
+          name="country"
+          value=""
+          placeholder="Enter Country"
+          class="input-text"
+        />
+        <br /><br />
+
+        <input
+          type="submit"
+          name="submit"
+          value="create a new student"
+          class="submit"
+        />
+      </form>
+    </div>
+    <p id="head">
+      Render Students <button id="new-stud-btn">Add Student</button>
+    </p>
+
+    <div id="student-list"></div>
+
+    <script src="crud.js"></script>
+  </body>
 </html>
